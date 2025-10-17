@@ -1,38 +1,17 @@
-export type SiteConfig = {
-  projectSlug: string;
-  siteTitle: string;
-  description: string;
-  primaryColor: string;
-  secondaryColor: string;
-  accentColor: string;
-  logo: string;
-  favicon: string;
-  heroImage: string;
-  phone: string;
-  whatsapp?: string;
-  address: string;
-  instagram?: string;
-  facebook?: string;
-  menuSections: Array<{ key: string; title: string }>;
-};
-
-export const site: SiteConfig = {
-  projectSlug: "template",
-  siteTitle: "Nombre del Restaurante",
-  description: "Descripción corta del sitio.",
-  primaryColor: "#C0392B",
-  secondaryColor: "#1F2937",
-  accentColor: "#F59E0B",
-  logo: "public/Brands/Template/logo.png",
-  favicon: "public/Brands/Template/favicon.png",
-  heroImage: "public/Brands/Template/hero.png",
-  phone: "+54 9 11 1234-5678",
-  address: "Dirección, Ciudad",
-  instagram: "",
-  facebook: "",
-  menuSections: [
-    { key: "entradas", title: "Entradas" },
-    { key: "parrilla", title: "Parrilla" },
-    { key: "postres",  title: "Postres" }
-  ]
+export const site = {
+  projectSlug: "",
+  siteTitle: "Parrilla de Aquiles",
+  description: "Aqui podras comer y beber a gusto",
+  primaryColor: "#7FFF00",
+  secondaryColor: "#A52A2A",
+  accentColor: "#DC143C",
+  logo: "https://eclipsediluna.com/wp-content/uploads/2025/09/ECLIPSE_HalloweenLogo_2025_V1-1.png",
+  favicon: "https://rooftopsantelmo.com/images/experiencias/Rooftop-experiencias11.jpg",
+  heroImage: "https://rooftopsantelmo.com/images/experiencias/Rooftop-experiencias17.jpg",
+  phone: "+54 9 11 5555-5556",
+  whatsapp: "+54 9 11 5555-5556",
+  address: "Av. Siempre Viva 123, SPRING",
+  instagram: "https://instagram.com/Aqui",
+  facebook: "https://facebook.com/parrilladonjorge",
+  menuSections: [{"key":"entradas","title":"Entradas"},{"key":"parrilla","title":"Parrilla"},{"key":"postres","title":"Postres"}]
 };
