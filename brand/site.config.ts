@@ -1,7 +1,7 @@
 export const site = {
   projectSlug: "",
   siteTitle: "Parrilla de Aquiles90",
-  description: "Aqui podras comer y beber a gusto",
+  description: "Aqui podras comer y beber a gustos",
   primaryColor: "#7FFF00",
   secondaryColor: "#A52A2A",
   accentColor: "#DC143C",
